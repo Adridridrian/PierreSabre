@@ -1,6 +1,6 @@
 package histoire;
 
-import personnages.Commerçant;
+import personnages.Commercant;
 import personnages.Humain;
 import personnages.Ronin;
 import personnages.Yakuza;
@@ -13,7 +13,7 @@ public class HistoireTP4 {
 		beaugoss.boire();	
 		beaugoss.acheter("un jeu",2);
 		beaugoss.acheter("un kimono",50);
-		Commerçant yoan = new Commerçant (" yoan", "thé", 20);
+		Commercant yoan = new Commercant (" yoan", "th�", 20);
 		yoan.direBonjour();
 		yoan.seFaireExtorquer();
 		yoan.recevoir(15);
